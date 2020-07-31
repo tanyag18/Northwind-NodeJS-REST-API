@@ -67,7 +67,7 @@ $ nodemon server.js
  #### 1.Get Router to fetch complete list of Customers
  Select GET from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Customer
+ http://localhost:3000/Customer
 ```
 It will display you the complete list of Customer Details from the database in the response section.
 
