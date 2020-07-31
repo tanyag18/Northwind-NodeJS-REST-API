@@ -140,28 +140,28 @@ Now if you go back to your MySQL workbench and do a refresh, you will see the pa
  ####  1.Get Router to fetch complete list of Products
  Select GET from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Product
+ http://localhost:3000/Product
 ```
 It will display you the complete list of Product Details from the database in the response section.
 
  #### 2.Get Router to **SELECT** a particular Product from the list
  Select GET from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Product/id
+ http://localhost:3000/Product/id
 ```
 It will display you the data of Product with ProductID :`id` from the database in the response section if present.
 
  #### 3.Delete Router to **DELETE** a particular Product from the list
  Select DELETE from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Product/id
+ http://localhost:3000/Product/id
 ```
 It will display you the data of Product with ProductID :`id` from the database in the response section if present otherwise it will send `400 Bad Request` error.
 
 #### 4.POST Router to **INSERT** a Product in the database
  Select POST from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Product
+ http://localhost:3000/Product
 ```
 Moving further,  enter Customer details in the body section (Select Raw JSON data)
 ```
@@ -183,7 +183,7 @@ It will insert a product with the above details into the database.
 #### 5.PUT Router to **UPDATE** a Product in the database
  Select POST from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Product
+ http://localhost:3000/Product
 ```
 Moving further,  enter Customer details in the body section (Select Raw JSON data)
 - Change Product name 
@@ -207,7 +207,7 @@ It should update the particular product.
 &nbsp;
 To display the order history of the customer select GET from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Customer/orderhistory/id
+ http://localhost:3000/Customer/orderhistory/id
 ```
 It will display the Order Details of the Customer with CustomerID : `id` in the response section.
 
