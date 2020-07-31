@@ -74,7 +74,7 @@ It will display you the complete list of Customer Details from the database in t
  #### 2.Get Router to **SELECT** a particular Customer from the list
  Select GET from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Customer/id
+ http://localhost:3000/Customer/id
 ```
 It will display you the data of Customer with CustomerID :`id` from the database in the response section if present.
 
@@ -88,7 +88,7 @@ It will delete the data of Customer with CustomerID :`id` from the database in t
 #### 4.POST Router to **INSERT** a Customer in the database
  Select POST from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Customer
+ http://localhost:3000/Customer
 ```
 Moving further,  enter Customer details in the body section (Select Raw JSON data)
 ```
@@ -112,7 +112,7 @@ It will insert a customer with the above details into the database.
 #### 5.PUT Router to **UPDATE** a Customer in the database
  Select POST from the drop-down list and type in the below URL:
  ```
- http://localhost:30000/Customer
+ http://localhost:3000/Customer
 ```
 Moving further,  enter Customer details in the body section (Select Raw JSON data)
 - Change company name 
